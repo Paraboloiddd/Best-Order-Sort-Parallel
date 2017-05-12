@@ -104,7 +104,7 @@ public class BestOrderSort {
 
     private void findRank(Solution s, int j) {
         boolean done = false;
-        for (int k = 0; k < rc; k++) {
+        for (int k = 0; k <= rc; k++) {
             boolean check = false;
             if (l[j][k] != null) {
                 for (Solution t : l[j][k]) {
